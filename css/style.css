@@ -1,0 +1,111 @@
+html {
+  box-sizing:border-box;
+  font-family: Roboto, sans-serif;
+  color:#222;
+  line-height: 1.5;
+  font-size: 110%;
+  background-color: white;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0em 5em 0em 5em;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-shadow: 5px 5px grey;
+  font-size: 10rem;
+  border-bottom: 15px solid #ffd300;
+  display: inline;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5rem;
+  padding-top: 1em;
+}
+
+h3, h4 {
+  font-size: 1.6rem;
+  line-height: 0;
+}
+
+p {
+  text-align: left;
+  text-indent: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.about-content img {
+  width: 50%;
+}
+
+.about-content {
+  padding-bottom: 20px;
+}
+
+.media-platforms img {
+  width: 100%;
+}
+
+/* figcaption */
+figure {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font-style: italic ;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Link, Hover, visited, default, focus */
+nav li {
+  display: inline-block;
+  justify-content: left;
+}
+
+nav a:link {
+  display: inline-block;
+  padding: .75em 1em .5em 1em;
+  font-weight: bold;
+}
+
+nav a, nav a:visited {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus  {
+  background-color: white;
+  color:black;
+  border: 2px solid black;
+}
+
+main a:link, main a:visited {
+  color: black;
+  font-weight: bold;
+}
+
+main a:hover, main a:focus {
+  color: red;
+  text-decoration: none;
+  font-size: 150%;
+}
